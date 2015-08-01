@@ -34,7 +34,7 @@ cd ${DIR}/KERNEL/
 #running:
 #git bisect good v4.0
 #running:
-#git bisect bad v4.2-rc4
+#git bisect bad v4.1-rc3
 
 
 git describe
