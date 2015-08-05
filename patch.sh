@@ -292,6 +292,7 @@ sgx () {
 #sgx
 
 packaging () {
+	patch -p1 < "${DIR}/patches/beaglebone/phy/0003-cpsw-search-for-phy.patch"
 	#echo "dir: packaging"
 	#regenerate="enable"
 #	if [ "x${regenerate}" = "xenable" ] ; then
