@@ -2,7 +2,7 @@
 #
 ARCH=$(uname -m)
 
-config="omap2plus_defconfig"
+config="multi_v7_defconfig"
 
 build_prefix="-armv7-devel-r"
 branch_prefix="v"
@@ -18,11 +18,11 @@ KERNEL_ARCH=arm
 #toolchain="gcc_linaro_gnueabi_4_6"
 #toolchain="gcc_linaro_gnueabihf_4_7"
 #toolchain="gcc_linaro_gnueabihf_4_8"
-toolchain="gcc_linaro_gnueabihf_4_9"
+#toolchain="gcc_linaro_gnueabihf_4_9"
 #toolchain="gcc_linaro_gnueabihf_5"
 #toolchain="gcc_linaro_gnueabihf_6"
 #toolchain="gcc_linaro_gnueabihf_7"
-#toolchain="gcc_arm_gnueabihf_8"
+toolchain="gcc_arm_gnueabihf_8"
 #arm64
 #KERNEL_ARCH=arm64
 #toolchain="gcc_linaro_aarch64_gnu_5"
@@ -31,8 +31,8 @@ toolchain="gcc_linaro_gnueabihf_4_9"
 #toolchain="gcc_arm_aarch64_gnu_8"
 
 #Kernel
-KERNEL_REL=4.1
-KERNEL_TAG=${KERNEL_REL}-rc1
+KERNEL_REL=5.3
+KERNEL_TAG=${KERNEL_REL}
 kernel_rt=".X-rtY"
 #Kernel Build
 BUILD=${build_prefix}0
