@@ -1,4 +1,5 @@
 .CC
+recipe.sh
 system.sh
 KERNEL
 dl
@@ -8,3 +9,6 @@ kernel_version
 patches/patch-*.bz2
 patches/current_defconfig
 patches/previous_defconfig
+patches/bisect_defconfig
+patches/HEAD_omap2plus_defconfig
+patches/MOD_omap2plus_defconfig
